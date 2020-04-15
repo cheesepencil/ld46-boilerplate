@@ -19,6 +19,8 @@
   "homepage": "https://github.com/cheesepencil/ld46-boilerplate#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
+    "phaser": "^3.22.0",
     "typescript": "^3.8.3"
-  }
+  },
+  "dependencies": {}
 }
