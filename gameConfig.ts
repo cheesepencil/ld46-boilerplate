@@ -1,4 +1,8 @@
-export const gameConfig: GameConfig = {
+import { TestScene } from "./TestScene";
+
+type GameConfig = Phaser.Types.Core.GameConfig;
+
+export const MyGameConfig: GameConfig = {
     type: Phaser.AUTO,
     render: {
         antialias: false
@@ -15,5 +19,5 @@ export const gameConfig: GameConfig = {
     },
     width: 240,
     height: 160,
-    scene: []
+    scene: [TestScene]
 };
